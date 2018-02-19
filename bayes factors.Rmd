@@ -16,11 +16,6 @@ library(knitr)
 <!--
 TO DO:
 * Compare posteriors of the different packages.
-
-library(RWordPRess)
-options(WordpressLogin = c(admin = 'f1skf1sk'), WordpressURL = 'http://lindeloev.net/xmlrpc.php')
-setwd('/home/jonas/Desktop')
-knit2wp('bayes factors.Rmd', title="How to compute Bayes factors using lm, lmer, BayesFactor, brms, and JAGS/stan", publish=FALSE, action='editPost', postid=774, shortcode = c(FALSE, FALSE))
 -->
 **By Jonas Kristoffer Lindeløv.** 
 See [my blog](http://lindeloev.net) and [my academic profile](http://personprofil.aau.dk/117060). Created on Feb, 2018.
