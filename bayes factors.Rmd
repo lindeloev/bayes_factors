@@ -32,6 +32,7 @@ In each section, I start with the most limited methods and then progress towards
 
 This is just a demonstration of syntax which ignores some controversies surrounding Bayes Factors. Namely, [some researchers](http://andrewgelman.com/2017/07/21/bayes-factor-term-came-references-generally-hate/) go for parameter estimation rather than Bayes Factors because BFs are too relative: (1) Bayes factors just change credence between models without quantifying whether the better model is actually credible enough, and (2) they are relative to the prior, yet people often discuss Bayes Factors as if they are purely data-driven. A good first amelioration of these problems is to accompany your Bayes Factors with **posterior predictive checks** for absolute model fit and **[sensitivity analyses](https://en.wikipedia.org/wiki/Robust_Bayesian_analysis)** for robustness to theoretically unimortant changes in model structure and priors.
 
+The full code for this notebook is [available on GitHub](https://github.com/lindeloev/r_notebooks).
 
 # Intercept-only models
 Here is some data:
